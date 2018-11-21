@@ -13,3 +13,14 @@ Outputs
 	"bazz": "buzz"
 }
 ```
+
+## Optional Usage
+
+`> quick-pretty '{"foo":"bar","bazz":"buzz"}' bazz`
+
+Outputs
+```
+{
+	"foo": "bar"
+}
+```
