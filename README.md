@@ -24,3 +24,15 @@ Outputs
 	"foo": "bar"
 }
 ```
+
+## Pipe stringified JSON output from another program
+
+`> echo '{"foo":"bar","bazz":"buzz"}' | quick-pretty`
+
+Outputs
+```
+{
+	"foo": "bar",
+	"bazz": "buzz"
+}
+```
