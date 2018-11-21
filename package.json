@@ -1,0 +1,15 @@
+{
+  "name": "quick-pretty",
+  "version": "0.1.0",
+  "description": "Simple CLI tool for pretty printing JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "quick-pretty": "./index.js",
+    "qp": "./index.js"
+  },
+  "author": "Dylan Bathurst <dylanbathurst@gmail.com>",
+  "license": "MIT"
+}
