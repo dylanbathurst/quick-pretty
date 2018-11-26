@@ -1,7 +1,13 @@
 {
   "name": "quick-pretty",
   "version": "0.3.0",
+  "author": "Dylan Bathurst <dylanbathurst@gmail.com>",
   "description": "Simple CLI tool for pretty printing JSON",
+  "keywords": [
+    "json",
+    "prettify",
+    "cli"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +16,12 @@
     "quick-pretty": "./index.js",
     "qp": "./index.js"
   },
-  "author": "Dylan Bathurst <dylanbathurst@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylanbathurst/quick-pretty.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dylanbathurst/quick-pretty/issues"
+  },
   "license": "MIT"
 }
